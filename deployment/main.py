@@ -150,7 +150,7 @@ class FireDetectionApp:
         )
 
 def main():
-    model_path = "../fire_detection_model.h5"
+    model_path = "fire_detection_model.h5"
     if not os.path.exists(model_path):
         print(f"Error: Model file not found at {model_path}")
         messagebox.showerror("Model Error", f"Model file not found at {model_path}")

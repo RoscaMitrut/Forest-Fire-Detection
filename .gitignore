@@ -3,3 +3,5 @@
 *.rar
 *.zip
 *.ini
+*.h5
+venv/
