@@ -5,3 +5,5 @@
 *.ini
 *.h5
 venv/
+logs_model/
+*.h5
