@@ -12,7 +12,7 @@ class FireDetectionApp:
     def __init__(self, master, model_path="fire_detection_model.h5"):
         self.master = master
         self.master.title("Fire Detection System")
-        self.master.geometry("800x600")
+        self.master.geometry("800x800")
         self.master.resizable(True, True)
         self.master.configure(bg="#f0f0f0")
         
